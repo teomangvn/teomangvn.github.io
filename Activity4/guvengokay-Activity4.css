@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.advertisement {
+    width: 100px;
+    height: 150px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: gray;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+}
+
+.image {
+    width: 250px;
+    float: left;
+    margin-left: 200px;
+    margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+.image img {
+    width: 100%;
+}
+.last-div {
+    width: 100%;
+}
+
+.header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    float: left;
+	margin-top: 20px;
+    width: 500px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.title {
+    margin-left: 510px;
+    padding-top: 40px;
+}
+
+.title h1 {
+    font-size: 24px;
+    margin: 0;
+}
+.main {
+    text-align: justify;
+    line-height: 1.5;
+	margin-left: 200px;
+    margin-bottom: 10px;
+	margin-right: 200px;
+}
+
+.head {
+    text-align: center;
+    color: #333;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+
+.header {
+    position: relative;
+    height: 160px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+
+.title {
+    position: absolute;
+    left: 200px;
+    top: 5px;
+}
