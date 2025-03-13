@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+form {
+    width: 320px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td {
+    padding: 3px 6px;
+}
+input, select, textarea {
+    padding: 2px;
+    width: 100%;
+    box-sizing: border-box;
+}
+textarea {
+    height: 55px; 
+}
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+.checkbox-container {
+    white-space: nowrap;
+}
+input[type="submit"] {
+    width: auto;
+    padding: 4px 12px;
+}
