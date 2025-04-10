@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button Chase Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            position: relative;
+            overflow: hidden;
+        }
+        #target-button {
+            position: absolute;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        #game-info {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-info">
+        <h3>Level: <span id="level">1</span></h3>
+        <h3>Clicks: <span id="clicks">0</span>/3</h3>
+        <div id="message"></div>
+    </div>
+    
+    <button id="target-button">Click Me!</button>
+
+    <script src="game.js"></script>
+</body>
+</html>
